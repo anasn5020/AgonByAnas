@@ -2056,6 +2056,9 @@ form {
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
+  .navbar-toggler {
+    display: none;
+}
   #payment img {
     width: 150px;
     border-radius: 15px;
@@ -2095,4 +2098,10 @@ form {
   .lastanimated-img {
     left: 386px;
   }
+  .navbar-toggler {
+    display: none;
+}
+.nav li {
+  padding: 30px 22px 30px 55px;
+}
 }
